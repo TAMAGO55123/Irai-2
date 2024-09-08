@@ -1,18 +1,16 @@
-/*fonts*/
-
-@font-face {
-    font-family: "Rampart One";
-    src: url("/font/RampartOne-Regular.ttf");
-}
-
-@font-face {
-    font-family: "M PLUS Rounded 1c";
-    font-weight:700;
-    src: url("/font/MPLUSRounded1c-Bold.ttf");
-}
-
-@font-face {
-    font-family: "M PLUS Rounded 1c";
-    font-weight:400;
-    src: url("/font/MPLUSRounded1c-Regular.ttf");
-}
+*{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+      font-weight: 700;
+  }
+  
+  .m-maru{
+      font-family: "M PLUS Rounded 1c", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }

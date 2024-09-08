@@ -1,0 +1,46 @@
+.left{
+    float: left;
+}
+.leftk{
+    float: left;
+}
+.right{
+    float: right;
+}
+.rightk{
+    float: right;
+}
+
+div#header{
+    display: block;
+    background-color: #2b2b2b;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+div#header h1, div#header i{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border: none 0px;
+}
+div#header i::before{
+    content: "\f0c9";
+    font-size: 40px;
+}
+div#header a{
+    display: inline-block;
+    height: 40px;
+}
+div#panel i.close::before{
+    content: "\f057";
+    font-size: 30px;
+    color: #2b2b2b;
+}
+div.link a{
+    transition: 0.3s;
+}
+div.link a:hover{
+    filter: brightness(0.8);
+}
