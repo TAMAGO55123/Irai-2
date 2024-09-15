@@ -44,3 +44,20 @@ div.link a{
 div.link a:hover{
     filter: brightness(0.8);
 }
+div.main{
+    margin-top: 40px;
+}
+footer{
+    background-color: rgb(198, 198, 198);
+    font-size: 2em;
+}
+img#logo{
+    max-width: 100%;
+}
+.center{
+    display: block;
+    margin: auto;
+}
+.txcenter{
+    text-align: center;
+}
